@@ -47,6 +47,7 @@
 		<docker.image.prefix>ingjulianvega</docker.image.prefix>
 		<!--Set to name of project-->
 		<docker.image.name>${project.artifactId}</docker.image.name>
+		<!--For Gateway and Eureka-->
 		<spring-cloud.version>2020.0.5</spring-cloud.version>
 	</properties>
 

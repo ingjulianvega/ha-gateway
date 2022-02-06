@@ -12,8 +12,8 @@ spring:
     name: @artifactId@
 server:
   port: 9090
-  servlet:
-    context-path: /happy-animals/v1/owner
+  #servlet:
+   # context-path: /happy-animals/v1/owner
 #Logging
 #logging:
 #  level:
