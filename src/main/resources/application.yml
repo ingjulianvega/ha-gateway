@@ -10,6 +10,9 @@ contact-url: https://twitter.com/ingjulianvega
 spring:
   application:
     name: @artifactId@
+  #Zipkin
+  zipkin:
+    baseUrl: http://localhost:9411/
 server:
   port: 9090
   #servlet:
