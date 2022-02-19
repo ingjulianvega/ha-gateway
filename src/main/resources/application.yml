@@ -12,7 +12,8 @@ spring:
     name: @artifactId@
   #Zipkin
   zipkin:
-    baseUrl: http://localhost:9411/
+    enabled: false
+    #baseUrl: http://localhost:9411/ #Was removed and moved to config repo
 server:
   port: 9090
   #servlet:
